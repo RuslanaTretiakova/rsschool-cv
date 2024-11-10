@@ -33,9 +33,10 @@
 * freeCodeCamp Course «Front End Development Libraries» (in progress)
 * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 ***
-```
 
 ## Code example:
+```
+
 function encodeToRot13(str) {
   const alpha = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
   const cipher = 'NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm';
