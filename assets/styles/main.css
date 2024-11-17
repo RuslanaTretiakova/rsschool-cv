@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('./normalize.css');
+@import url('./helpers.css');
+
+:root {
+    --primary-color: #ffe5ec;
+    --secondary-color: #fd7f9e;
+    --accent-color: #386641;
+    --background: #f8f9fa;
+    --background-gr: #e9ecef;
+    --text-color: #202020;
+    --header-hight: 10vh;
+  }
+
+html {
+    scroll-behavior: smooth;
+    font-family: "Roboto Mono", monospace;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body {
+  position: relative;
+    max-width: 2550px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.logo-img {
+    width: 50px;
+    height: auto;
+    border-radius: 100%;
+}
+
+.logo-sub {
+  color: var(--accent-color);
+}
+
+.header {
+  background-color: #fff;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  height: 10vh;
+}
+
+.footer {
+  padding: 3em;
+  height: 20vh;
+  background-color: var(--background-gr);
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation__item a {
+    font-size: 1.2em;
+    color: var(--secondary-color);
+}
+
+
+.navigation__item :hover {
+    color: var(--accent-color);
+}
+
+.section {
+    height: 100vh;
+    background-color: var(--background);
+}
+
+.section_pink {
+    background-color: var(--primary-color);
+}
+
+.languages , 
+.skills,
+.courses,
+.contact {
+  list-style: none;
+  padding: 0;
+}
+
+.skills {
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  
+  .skills__item ,
+  .languages__item,
+  .courses__item {
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+    background-color: var(--primary-color);
+  }
+
+  .skills__item {
+    width: 25%;
+  }
+
+  .languages__item {
+    width: 30%;
+  }
+
+  .courses__item {
+    width: 80%;
+  }
+
+  .languages__item {
+    background-color: var(--background);
+  }
+
+  .contact__item a:hover {
+    color: var(--secondary-color);
+  }
+
+  pre {
+    background-color: #fff;
+  }
