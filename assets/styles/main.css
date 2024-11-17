@@ -6,8 +6,10 @@
     --primary-color: #ffe5ec;
     --secondary-color: #fd7f9e;
     --accent-color: #386641;
-    --background: #fafafad6;
+    --background: #f8f9fa;
+    --background-gr: #e9ecef;
     --text-color: #202020;
+    --header-hight: 10vh;
   }
 
 html {
@@ -18,6 +20,7 @@ html {
 }
 
 body {
+  position: relative;
     max-width: 2550px;
     margin: 0 auto;
 }
@@ -38,9 +41,24 @@ img {
     border-radius: 100%;
 }
 
-.header,
+.logo-sub {
+  color: var(--accent-color);
+}
+
+.header {
+  background-color: #fff;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  height: 10vh;
+}
+
 .footer {
-    height: 10vh;
+  padding: 3em;
+  height: 20vh;
+  background-color: var(--background-gr);
 }
 
 .navigation {
@@ -71,7 +89,8 @@ img {
 
 .languages , 
 .skills,
-.courses {
+.courses,
+.contact {
   list-style: none;
   padding: 0;
 }
@@ -106,4 +125,8 @@ img {
 
   .languages__item {
     background-color: var(--background);
+  }
+
+  .contact__item a:hover {
+    color: var(--secondary-color);
   }

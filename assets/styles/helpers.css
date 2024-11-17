@@ -32,6 +32,9 @@
 .padding-xl {
     padding: 50px;
 }
+.padding-top {
+    padding-top: 12vh;
+}
 
 .text-h1 {
     font-size: 2em;
