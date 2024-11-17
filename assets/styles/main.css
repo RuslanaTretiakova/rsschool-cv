@@ -6,7 +6,7 @@
     --primary-color: #ffe5ec;
     --secondary-color: #fd7f9e;
     --accent-color: #386641;
-    --background: #FAFAFA;
+    --background: #fafafad6;
     --text-color: #202020;
   }
 
@@ -14,6 +14,7 @@ html {
     scroll-behavior: smooth;
     font-family: "Roboto Mono", monospace;
     font-size: 16px;
+    box-sizing: border-box;
 }
 
 body {
@@ -60,10 +61,26 @@ img {
 }
 
 .section {
-    height: 90vh;
+    height: 100vh;
     background-color: var(--background);
 }
 
 .section_pink {
     background-color: var(--primary-color);
 }
+
+.skills {
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0 auto;
+  }
+  
+  .skills__item {
+    width: 25%;
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+    background-color: var(--primary-color);
+  }

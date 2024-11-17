@@ -10,11 +10,8 @@
     align-items: center;
 }
 
-.flex-center-column {
+.flex-column {
     flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .width-sm {
@@ -31,6 +28,9 @@
 
 .padding-sm {
     padding: 10px;
+}
+.padding-xl {
+    padding: 50px;
 }
 
 .text-h1 {
