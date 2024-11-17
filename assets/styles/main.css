@@ -130,3 +130,7 @@ img {
   .contact__item a:hover {
     color: var(--secondary-color);
   }
+
+  pre {
+    background-color: #fff;
+  }
