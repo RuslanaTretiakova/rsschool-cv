@@ -1,0 +1,50 @@
+.space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-center-column {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.width-sm {
+    width: 50vw;
+}
+
+.gap-sm {
+    gap: 5px;
+}
+
+.gap-md {
+    gap: 20px;
+}
+
+.padding-sm {
+    padding: 10px;
+}
+
+.text-h1 {
+    font-size: 2em;
+    color: var(--text-color);
+}
+
+.text-p {
+ text-align: center;
+ color: var(--accent-color);
+ line-height: 2em;
+}
+
+.text-h2 {
+    color: var(--accent-color);
+    margin: 0;
+}
