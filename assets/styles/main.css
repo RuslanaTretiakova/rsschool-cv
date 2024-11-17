@@ -69,18 +69,41 @@ img {
     background-color: var(--primary-color);
 }
 
+.languages , 
+.skills,
+.courses {
+  list-style: none;
+  padding: 0;
+}
+
 .skills {
     width: 80vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    list-style: none;
     margin: 0 auto;
   }
   
-  .skills__item {
-    width: 25%;
+  .skills__item ,
+  .languages__item,
+  .courses__item {
     padding: 1.5em;
     margin-bottom: 1.5em;
     background-color: var(--primary-color);
+  }
+
+  .skills__item {
+    width: 25%;
+  }
+
+  .languages__item {
+    width: 30%;
+  }
+
+  .courses__item {
+    width: 80%;
+  }
+
+  .languages__item {
+    background-color: var(--background);
   }
